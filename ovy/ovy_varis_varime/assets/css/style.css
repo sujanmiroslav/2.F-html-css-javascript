@@ -14,27 +14,63 @@
 body {
     font-family: "Outfit", sans-serif;
     background-color: var(--stone-100);
+    font-size: 20px;
+    color: var(--stone-600);
+    line-height: 30px;
 }
 
 
 h1 {
     font-family: "Young Serif",sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500px;
+    font-size: 35px;
+    color: var(--stone-900);
 }
 
+.tabulka_strong{
+    
+}
 
+h2 {
+    color: var(--brown-00);
+    font-family: "Young Serif",sans-serif;
+    font-weight: 400px;
+    
+}
 
+.priprava_h2 {
+    color: var(--rose-800);
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    
+}
 
-
-
-
-
-
-
-
-
+.priprava{
+    background-color: var(--rose-50);
+}
 
 
 main {
     background-color:var(--biela);
-    margin: 300px;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 1000px;
+    padding: 30px;
+}
+
+img {
+    width: inherit;     /*zdedi to od rodica*/
+    border-radius: inherit;
+    padding-bottom: 20px;
+
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    padding: 30px;
+    border-bottom: 1px solid var(--stone-100);
 }
